@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+	<meta charset="UTF-8">
+	<!--IMPORTANT NOTE:reference:CSS Responsive on W3SCHOOL 
+	Setting a Viewport..
+	HTML5 introduced a method to let web designers take control over their viewport, through <meta> tag.
+	This <meta> .... gives the browser instructions on how to control the page's dimensions and scaling.
+	width=device-width : sets the width of the page to follow the screen-width of the device.
+	initial-scale=1.0 : sets the initial zoom level when the page is first loaded by the browser. 
+	-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Mental Health</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section>
+		<div class="circle"></div>
+		<header>
+			<a href="#"><img src="logo.png" class="logo" width="200" height="200"></a>
+			
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">
+				<li><a href="http://127.0.0.1:8080/home.html">Home</a></li>
+				<li><a href="http://127.0.0.1:8080/TypesOfMentalHealth.html">Type</a></li>
+				<li><a href="http://127.0.0.1:8080/mentalLookAfter.html">Precaution</a></li>
+				<li><a href="http://127.0.0.1:8080/factors.html">Factor</a></li>
+				<li><a href="http://127.0.0.1:8080/signs.html">Sign</a></li>
+				<li><a href="http://127.0.0.1:8080/Importance.html">Importance</a></li>
+				<li><a href="http://127.0.0.1:8080/Help.html">Contact</a></li>
+			</ul>
+		</header>
+		<!--
+		<section id="home">Home</section>
+		<section id="menu">Menu</section>
+		<section id="what 's New">What 's New</section>
+		<section id="contact">Contact</section>
+		
+		-->
+		
+		
+		
+		
+		
+		
+		<div class="content">
+			<div class="textBox">
+				<h2>It's not bad day<br><span>Get to Know your Mental Health</span></h2>
+				<p>Online Screening is one of the quickest and easiest ways to determine whether you are experiencing symptoms of a mental health condition.</p>
+				<a href="https://screening.mhanational.org/screening-tools/">Take The Test</a>
+		</div>
+		<br>
+		<br>
+		<div class="textBox">
+				<h2><span>Stigma and Myths</span></h2>
+				<br>
+				<p>Sadly, there is still a significant stigma attached to mental health conditions, with much of this relying on old-fashioned thinking and outdated assumptions</p>
+				<a href="#">Learn More</a>
+		</div>
+		<div class="imgBox">
+			<img src="stigma.png" class="starbucks">
+		</div>
+	</div>
+	<ul class="thumb">
+		<li><img src="thumb4.png" onclick="imgSlider('myths2.png');changeCircleColor('#017143')"></li>
+		<li><img src="thumb4.png" onclick="imgSlider('myths3.png');changeCircleColor('#eb7495')"></li>
+		<li><img src="thumb4.png" onclick="imgSlider('myths4.png');changeCircleColor('#d752b1')"></li>
+	</ul>
+	<ul class="sci">
+		<li><a href="#"><img src="facebook.png"></a></li>
+		<li><a href="#"><img src="twitter.png"></a></li>
+		<li><a href="#"><img src="instagram.png"></a></li>
+	</ul>
+	</section>
+	
+	<script type="text/javascript">
+		function imgSlider(anything){
+			document.querySelector('.starbucks').src=anything;
+		}
+		
+		function changeCircleColor(color){
+			const circle=document.querySelector('.circle');
+			circle.style.background=color;	
+		}
+		
+		function toggleMenu(){
+			var menuToggle=document.querySelector('.toggle');
+			var navigation=document.querySelector('.navigation')
+			menuToggle.classList.toggle('active')
+			navigation.classList.toggle('active')
+		}
+	</script>
+	
+</body>
+</html>
