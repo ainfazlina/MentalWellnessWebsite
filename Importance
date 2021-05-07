@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Importance of Mental Health</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 50px;
+  text-align: center;
+  background: green;
+  background-size: cover;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+a {
+  color: black;
+}
+
+.side a.active {
+  color: green  ;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.box {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+  
+}
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navigation li {
+  float: right;
+}
+
+.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.navigation .active {
+  background-color: #4CAF50;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Importance of Mental Health</h1>
+</div>
+
+	<ul class="navigation">
+				<li><a href="http://127.0.0.1:8080/home.html">Home</a></li>
+				<li><a href="http://127.0.0.1:8080/TypesOfMentalHealth.html">Type</a></li>
+				<li><a href="http://127.0.0.1:8080/mentalLookAfter.html">Precaution</a></li>
+				<li><a href="http://127.0.0.1:8080/factors.html">Factor</a></li>
+				<li><a href="http://127.0.0.1:8080/signs.html">Sign</a></li>
+				<li><a class="active" href="http://127.0.0.1:8080/Importance.html">Importance</a></li>
+				<li><a href="http://127.0.0.1:8080/Help.html">Contact</a></li>
+	</ul>
+
+  <div class="side">
+    <h1>The Importance of Mental Health</h1>
+  </div>
+  
+  <div class="main">
+	<hr>
+    <h5>Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make healthy choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.</h5>
+	
+	<!--| - Find a YouTube video and copy the embedded code -->
+<iframe width="1536" height="722" src="https://www.youtube.com/embed/OGZjYnZg4Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+<div class="footer">
+  	<h2>		
+		<a href="#"><img src="facebook.png"></a></li>
+		<a href="#"><img src="twitter.png"></a></li>
+		<a href="#"><img src="instagram.png"></a></li>
+	</h2>
+</div>
+
+</body>
+</html>
