@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>How to Look After Your Mental Health</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 100px;
+  text-align: center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPJYlAq39a0cs9DaRzGpupoKWDVj_vZeV1qA&usqp=CAU");
+  background-size: cover;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+a {
+  color: black;
+}
+
+.side a.active {
+  color: green  ;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main { 
+  text-align: center;
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.box {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+a.one:visited {color:#017143;}
+a.one:hover {color:#66bd99;}
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navigation li {
+  float: right;
+}
+
+.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.navigation .active {
+  background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>How to Look After Your Mental Health</h1>
+</div>
+
+<div class="navbar">
+	<ul class="navigation">
+				<li><a href="http://127.0.0.1:8080/home.html">Home</a></li>
+				<li><a href="http://127.0.0.1:8080/TypesOfMentalHealth.html">Type</a></li>
+				<li><a class="active" href="http://127.0.0.1:8080/mentalLookAfter.html">Precaution</a></li>
+				<li><a href="http://127.0.0.1:8080/factors.html">Factor</a></li>
+				<li><a href="http://127.0.0.1:8080/signs.html">Sign</a></li>
+				<li><a href="http://127.0.0.1:8080/Importance.html">Importance</a></li>
+				<li><a href="http://127.0.0.1:8080/Help.html">Contact</a></li>
+	</ul>
+</div>
+
+  <div class="side">
+    <h1>How to Look After Your Mental Health</h1>
+    <div class="box" style="height:60px;"><a href="#Talk about your feelings" class="active">Talk about your feelings</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Keep active" class="active">Keep active</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Eat balanced food" class="active">Eat balanced food</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Drink alcohol sensibly" class="active">Drink alcohol sensibly</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Keep in touch with friends or families" class="active">Keep in touch with friends or families</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Take a break" class="active">Take a break</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Do something you’re good at" class="active">Do something you’re good at</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Accept who you are" class="active">Accept who you are</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Care for others" class="active">Care for others</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Ask for help" class="active">Ask for help</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Video For You" class="active">Video For You</a></div><br>
+  </div>
+  
+  <div class="main">
+   
+    <a name= "Talk about your feelings"><a/>
+	<h2>Talk about your feelings</h2>
+    <h5>Talking about your feelings can help you stay in good mental health and deal with times when you feel troubled.</h5>
+	
+	<!--| - Find a YouTube video and copy the embedded code -->
+	<iframe width="703" height="395" src="https://www.youtube.com/embed/lJxXxqsv8Zc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br>
+	<br>
+	<br>
+	
+	<a name= "Keep active"></a>
+	<h2>Keep active</h2>
+    <h5>Regular exercise can boost your self-esteem and can help you concentrate, sleep, and feel better. Exercise keeps the brain and your other vital organs healthy, and is also a significant benefit towards improving your mental health.</h5>
+	
+	<img width="703" height="395" src="https://images.indianexpress.com/2020/03/exercise-1-story.jpg" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+
+	
+	
+	<a name= "Eat balanced food"></a>
+	<h2>Eat balanced food</h2>
+    <h5>Your brain needs a mix of nutrients in order to stay healthy and function well, just like the other organs in your body. A diet that’s good for your physical health is also good for your mental health.</h5>
+	
+	<img width="703" height="395" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0V-3rtVlBhBUCZtj0A8xPDNM-C387nBvM4Q&usqp=CAU" alt="Mental Health image">
+	<br>
+    <br>
+	<br>
+
+	
+	<a name= "Drink alcohol sensibly"><a/>
+	<h2>Drink alcohol sensibly</h2>
+    <h5>We often drink alcohol to change our mood. Some people drink to deal with fear or loneliness, but the effect is only temporary.When the drink wears off, you feel worse because of the way the alcohol has affected your brain and the rest of your body. Drinking is not a good way to manage difficult feelings.</h5>
+
+	<img width="703" height="395" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6GBju3fyA0TK7hXGfGb9Z64nmy5adcp-K_Q&usqp=CAU" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+	
+	
+	<a name= "Keep in touch with friends or families"><a/>
+	<h2>Keep in touch with friends or families</h2>
+    <h5>A change of scene or a change of pace is good for your mental health.</h5>
+	<h5>It could be a five-minute pause from cleaning your kitchen, a half-hour lunch break at work, or a weekend exploring somewhere new. A few minutes can be enough to de-stress you. Give yourself some ‘me time’.</h5>
+
+	<img width="703" height="395" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTU7YFkdx05WgeMA6fsRb49pFOPuF45UMNSA&usqp=CAU" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+		
+	<a name= "Take a break"><a/>
+	<h2>Take a break</h2>
+    <h5>Eating disorders include anorexia, bulimia nervosa and other binge eating disorders. Eating disorders affect females and males and can have serious psychological and physical consequences.</h5>	
+	
+	<img width="703" height="395" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlWhKdPP3l8GOwvTyArgWtvczMWalScEb7lA&usqp=CAU" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+	
+	
+	<a name= "Do something you’re good at"><a/>
+	<h2>Do something you’re good at</h2>
+	<h5>What do you love doing? What activities can you lose yourself in? What did you love doing in the past?</h5>
+	<h5>Enjoying yourself can help beat stress. Doing an activity you enjoy probably means you’re good at it, and achieving something boosts your self-esteem.</h5>
+	
+	<img width="703" height="395" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxIzc_fFdgtq8-W_bL2S4HRQzwfjhHa9uQiw&usqp=CAU" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+	
+
+	
+	<a name= "Accept who you are"><a/>
+	<h2>Accept who you are</h2>
+    <h5>We’re all different. It’s much healthier to accept that you’re unique than to wish you were more like someone else. Feeling good about yourself boosts your confidence to learn new skills, visit new places and make new friends. Good self-esteem helps you cope when life takes a difficult turn.</h5>
+	
+	<img width="703" height="395" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsTuOdznUxS3sEFkdQmP9T2PTFPTS-bQ-Atg&usqp=CAU" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+	
+	
+	<a name= "Care for others"><a/>
+	<h2>Care for others</h2>
+    <h5>Caring for others is often an important part of keeping up relationships with people close to you. It can even bring you closer together.</h5>
+	
+	<img width="703" height="395" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOJs6p5_LZCPnM3ZAka8FJWNClHSy8m5WrQ&usqp=CAU" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+	
+	
+	<a name= "Ask for help"><a/>
+	<h2>Ask for help</h2>
+    <h5>None of us are superhuman. We all sometimes get tired or overwhelmed by how we feel or when things don’t go to plan.</h5>
+	<h5>If things are getting too much for you and you feel you can’t cope, ask for help. Your family or friends may be able to offer practical help or a listening ear.</h5>
+	<h5>These local services are there to help you </h5>
+	<p><b><a class="one" href="https://thesmartlocal.com/malaysia/counselling-mental-health-services/" target="_blank">Help me</a></b></p>
+	<br>
+	<br>
+	<img width="703" height="395" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2dg05JvT3YCbPgvW74Nqd6iEZdPFW1PyttQ&usqp=CAU" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+
+	
+	
+	
+	<a name= "Video For You"><a/>
+	<h2 style="color:#017143;">Video For You</h2>	
+	<!--| - Find a YouTube video and copy the embedded code -->
+<iframe width="703" height="395" src="https://www.youtube.com/embed/PAestsXAWsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+  </div>
+
+<div class="footer">
+  <h2></h2>
+</div>
+
+</body>
+</html>
