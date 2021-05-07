@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Factors Affecting Your Mental Health</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 100px;
+  text-align: center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0iLpVdLFSvtOUeD-vGUoeM0G78hmBZ53Qcg&usqp=CAU");
+  background-size: cover;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+a {
+  color: black;
+}
+
+.side a.active {
+  color: green  ;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main { 
+  text-align: center;
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.box {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+a.one:visited {color:#017143;}
+a.one:hover {color:#66bd99;}
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navigation li {
+  float: right;
+}
+
+.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.navigation .active {
+  background-color: #4CAF50;
+}
+	
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Factors Affecting Your Mental Health</h1>
+</div>
+
+<div class="navbar">
+	<ul class="navigation">
+				<li><a href="http://127.0.0.1:8080/home.html">Home</a></li>
+				<li><a href="http://127.0.0.1:8080/TypesOfMentalHealth.html">Type</a></li>
+				<li><a href="http://127.0.0.1:8080/mentalLookAfter.html">Precaution</a></li>
+				<li><a class="active" href="http://127.0.0.1:8080/factors.html">Factor</a></li>
+				<li><a href="http://127.0.0.1:8080/signs.html">Sign</a></li>
+				<li><a href="http://127.0.0.1:8080/Importance.html">Importance</a></li>
+				<li><a href="http://127.0.0.1:8080/Help.html">Contact</a></li>
+	</ul>
+</div>
+
+  <div class="side">
+    <h1>Factors Affecting Your Mental Health</h1>
+    <div class="box" style="height:60px;"><a href="#Feeling Loneliness" class="active">Feeling Loneliness</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Grief and loss" class="active">Grief and loss</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Domestic and family violence" class="active">Domestic and family violence</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Bullying" class="active">Bullying</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Feeling useless" class="active">Feeling useless</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Sleeping problem" class="active">Sleeping problem</a></div><br>
+	<div class="box" style="height:60px;"><a href="#Stages of life events " class="active">Stages of life events </a></div><br>
+	<div class="box" style="height:60px;"><a href="#Alcohol or drug abuse" class="active">Alcohol or drug abuse</a></div><br>
+  </div>
+  
+  <div class="main">
+   
+    <a name= "Feeling Loneliness"><a/>
+	<h2>Feeling Loneliness</h2>
+	<h5>Feelings of loneliness and/or isolation are something that most people experience at some time in their lives. These feelings are normal and usually pass but if they don’t go away and last for a long time, it can have a negative impact on your mental health and wellbeing.</h5>
+	
+	<img width="703" height="395" src="https://lh4.googleusercontent.com/g35TxKp3Y0sk-cArORQu17JOycD9rF3-re97rWnd5xHyRzQ-EacQAvy1AZN_F4NrpP5UliC_WS-_UO-Me4UTimJjiqoFqktYnNdg4rciZIE_B29Yg7Jx6mlgwMoPMV3hm-720ds" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+	<a name= "Grief and loss"></a>
+	<h2>Grief and loss</h2>
+	<h5>Grief is something that takes time to work through. Everyone experiences grief in their own way and feelings of grief can last for weeks, months or even years. It is important to have support of friends, family or those you trust that you can talk to when you need. Don’t be afraid to ask for help.</h5>
+	<img width="703" height="395" src="https://miro.medium.com/max/2600/1*vIpxL0XyVPNrN8NbcoBEAg.gif" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+
+	
+	
+	<a name= "Domestic and family violence"></a>
+	<h2>Domestic and family violence</h2>
+	<h5>Domestic and family violence is when you feel unsafe, powerless or afraid due to the actions of someone close to you.</h5>
+	
+	<img width="703" height="395" src="https://www.verywellmind.com/thmb/BeI88iOB0LkJ6fC3oD3Xx_PKQg8=/735x0/What-is-gaslighting-5074703-no-text-2cf396867ebb45e48cf69e1addd8dbb2.gif" alt="Mental Health image">
+	<br>
+    <br>
+	<br>
+
+	
+	<a name= "Bullying"><a/>
+	<h2>Bullying</h2>
+	<h5>Bullying is an ongoing misuse of power in relationships through repeated verbal, physical and/or social behaviour that causes physical and/or psychological harm. It can involve an individual or a group misusing their power over one or more persons. Bullying can happen in person or online, and it can be obvious (overt) or hidden (covert).</h5>
+
+	<img width="703" height="395" src="https://edureviews.com/blog/my/wp-content/uploads/2019/08/Control-and-dominant-2.gif" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+	
+	
+	<a name= "Feeling useless"><a/>
+	<h2>Feeling useless</h2>
+	<img width="703" height="395" src="https://media.tenor.com/images/87daf5142f8d146f8fc2a59428a5e175/tenor.gif" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+		
+	<a name= "Sleeping problem"><a/>
+	<h2>Sleeping problem</h2>
+	<h5> A good night’s sleep is essential to our mental and physical health and wellbeing. A lack of sleep can have a major impact on our mood, concentration, memory and quality of life.</h5>
+	
+	<img width="703" height="395" src="https://v1.nitrocdn.com/vKirvvZkXZDLqKVucHhEaMYlDGixmHoq/assets/static/source/rev-a2026ae/wp-content/uploads/2019/07/Animation-of-a-Young-Man-Struggling-To-Fall-Asleep.gif" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+	
+	
+	<a name= "Stages of life events "><a/>
+	<h2>Stages of life events </h2>
+	<h5>There are times across your life when you are more vulnerable to experiencing mental health issues. These times are related to major changes in your life or when you are transitioning from one stage of life to another, which may place extra stress on you.</h5>
+	
+	<img width="703" height="395" src="https://www.verywellmind.com/thmb/2EzwsZQzXx4rHlb_HoNuH-2uCt8=/1333x1000/smart/filters:no_upscale()/how-depression-symptoms-may-appear-in-your-child-1066788_color_logo-4b2d9730ddbb4cafa9033719d8baa249.gif" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+	
+
+	
+	<a name= "Alcohol or drug abuse"><a/>
+	<h2>Alcohol or drug abuse</h2>
+	<h5>Alcohol and other drug use changes the way you behave, feel and make decisions. Whilst someone may use alcohol or other drugs because they think it makes them feel better in the short-term, they actually can leave you feeling worse in the long-term, especially if you already have an existing mental health issue.</h5>
+	
+	<img width="703" height="395" src="https://64.media.tumblr.com/tumblr_m4un6lWkrN1rwhq22o1_500.gif" alt="Mental Health image">
+	<br>
+	<br>
+	<br>
+	
+	
+  </div>
+
+<div class="footer">
+  <h2></h2>
+</div>
+
+</body>
+</html>
